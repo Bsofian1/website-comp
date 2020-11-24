@@ -1,15 +1,14 @@
-/* This is the CSS file*/
-
-
-
+/* This is the CSS file
+This is the general layout
+*/
 
 *{
     box-sizing: border-box;
 }
 
 body{
-    margin: 0px 50px 0px 50px;
-    font-family: Helvetica Neue;
+  margin: 0px 50px 0px 50px;
+  font-family: Helvetica Neue;
 }
 
 
@@ -24,12 +23,15 @@ ul{
   margin: 10px 20px 10px 20px
 }
 
-.wrapper{
-  margin: 0px 30px 0px 30px;
+.wrapper-general{
+  margin: 0px 30px 120px 30px;
   /*   don't exceed the 1200 width  */
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 10em 0em;
 }
+
+/* Menu content style*/
+
 
 header{
   display: flex;
@@ -42,4 +44,22 @@ ul{
 
 li a{
   padding: 0 1.2em;
+}
+
+h3{
+  color: #96f;
+  padding-bottom: 3em;
+}
+
+h1{
+font-size: 4.7em;
+letter-spacing: -0.1px;
+color: #0a2540;
+}
+
+p{
+  letter-spacing: .2px;
+  color: #425466;
+  font-size: 1em;
+  line-height: 3em;
 }
