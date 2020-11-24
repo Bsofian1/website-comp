@@ -1,77 +1,108 @@
+<!--This is a Strip website section with HTML and css for training  -->
+
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Sofian b">
-    <meta name="description"  content="A security page to keep everything secure">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="my-css-file.css">
-    <script src="my-js-file.js" defer charset="utf-8"></script>
 
-    <title>Security section</title>
-  </head>
-  <body>
-    <iframe src="" width="" height="" sandbox=""></iframe>
-     <!-- put navigation menu just here -->
-     <nav>
-       <ul>
-         <li><a href=""> Product</a></li>
-         <li><a href=""> Use cases</a></li>
-         <li><a href=""> Developers</a></li>
-         <li><a href=""> Company</a></li>
-         <li><a href=""> Pricing</a></li>
-       </ul>
-     </nav>
 
-    <!-- put Main content here -->
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+         <meta name="author" content="Sofian b">
+         <meta name="description"  content="A security page to keep everything secure">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+         <link rel="stylesheet" href="my-css-file.css">
 
-     <main>
-       <div class="security">
-         <h3 ><strong> Security</strong></h3>
-         <h1> <strong>Security and compliance at the core </strong></h1>
-         <p>Stripe’s platform meets the highest certification standards to help reduce compliance burdens for your business and keep payments safe.</p>
-           <div class="column 1">
-             <h4><strong>Comprehensive security</strong></h4>
-             <p>Our team includes world-class security experts, all focused on strengthening our infrastructure.</p>
-             <a href="https://stripe.com/en-gb-ch/docs/security/stripe" target="_blank">Security at Stripe﻿</a>
 
-             Missing icon
-             <h5>AES encryption</h5>
+        <title>Security section</title>
+      </head>
+      <body>
+        <header>
+          <a href="#"> <img src="images/favicon.ico" alt=" STRIPE Logo"</a>
+                 <!-- put navigation menu just here -->
+          <nav class="menu-top">
+            <ul>
+              <li><a href=""> Product</a></li>
+              <li><a href=""> Use cases</a></li>
+              <li><a href=""> Developers</a></li>
+              <li><a href=""> Company</a></li>
+              <li><a href=""> Pricing</a></li>
+            </ul>
+          </nav>
 
-             <p>All card numbers are encrypted on disk with AES-256. Decryption keys are stored on separate machines.</p>
+          <button type="sign-in" name="button">Sign in</button>
+        </header>
 
-             Missing icon
-             <h5> AES encryption</h5>
 
-             <p>All card numbers are encrypted on disk with AES-256. Decryption keys are stored on separate machines.</p>
-             <span style="font-size: 15px"> All card numbers are encrypted on disk with AES-256. Decryption keys are stored on separate machines.</span>
 
-           </div>
-           <div class="column 2">
+        <!-- put Main content here -->
 
-             <a href="https://stripe.com/en-gb-ch/docs/security"><h4><strong>Rigorous compliance</strong></h4></a>
-             <p>Stripe is certified to the highest industry standards and has obtained regulatory licenses around the world.</p>
-             <a href="https://stripe.com/en-gb-ch/docs/security" target="_blank" title="this is stripe">More about compliance﻿</a>
+     <section>
+         <div class="security wrapper">
+           <h3 ><strong> Security</strong></h3>
+           <h1> <strong>Security and compliance at the core </strong></h1>
+           <p>Stripe’s platform meets the highest certification standards to help reduce compliance burdens for your business and keep payments safe.</p>
+          </div>
 
-             <p>PCI DSS Level 1 certification</p>
-             <p>Money Transmitter Licenses across US</p>
-             <p>PSD2 and Strong Customer Authentication (SCA) compliant</p>
-             <p>SSAE18/SOC 1 type 1 and type 2 and SSAE18/SOC 2 type 1 and type 2 reports</p>
-             <p>AFSL in Australia, E-Money License in Europe, and registered MSB in Canada</p>
+             <main>
+                 <h4><strong>Comprehensive security</strong></h4>
+                 <p>Our team includes world-class security experts, all focused on strengthening our infrastructure.</p>
+                 <a href="https://stripe.com/en-gb-ch/docs/security/stripe" target="_blank"> Security at Stripe﻿ <img src="images/arrow.svg" alt="icon continue class="arrow-left"></a> <br>
 
-           </div>
+                 <img src="images/clouds.png" alt="clouds logo">
+                 <h5>AES encryption</h5>
 
-           <dl>
-             <dt>soliloquy</dt>
-             <dd>In drama, where a character speaks to themselves, representing their inner thoughts or feelings and in the process relaying them to the audience (but not to other characters.)</dd>
-             <dt>monologue</dt>
-             <dd>In drama, where a character speaks their thoughts out loud to share them with the audience and any other characters present.</dd>
-             <dt>aside</dt>
-             <dd>In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought, or piece of additional background information.</dd>
-           </dl>
+                 <p>All card numbers are encrypted on disk with AES-256. Decryption keys are stored on separate machines.</p>
 
-       </div>
-     </main>
+                 <img src="images/cubes.png" alt="">
+                 <h5> AES encryption</h5>
+
+                 <p>All card numbers are encrypted on disk with AES-256. Decryption keys are stored on separate machines.</p>
+                 <span style="font-size: 15px"> All card numbers are encrypted on disk with AES-256. Decryption keys are stored on separate machines.</span>
+             </main>
+
+
+
+              <aside class="compliance">
+                  <h4><strong>Rigorous compliance</strong></h4>
+                  <p>Stripe is certified to the highest industry standards and has obtained regulatory licenses around the world.</p>
+                  <a href="https://stripe.com/en-gb-ch/docs/security" target="_blank" title="this is stripe">More about compliance<img src="images/arrow.svg" alt="icon continue class="arrow-left">﻿</a>
+
+                  <section class="pci-dss">
+                    <img src="images/pci.png" alt="pci logo">
+                    <p>PCI DSS Level 1 certification</p>
+                  </section>
+
+                  <section class="aicpa">
+                    <img src="images/aicpa.png" alt="aicpa logo">
+                    <p>SSAE18/SOC 1 type 1 and type 2 and SSAE18/SOC 2 type 1 and type 2 reports</p>
+                  </section>
+
+                  <section class="usa-transfert">
+                    <img src="images/usa.png" alt="usa logo">
+                    <p>Money Transmitter Licenses across US</p>
+                  </section>
+
+                  <section class="world">
+                    <img src="images/world.png" alt="world logo">
+                    <p>AFSL in Australia, E-Money License in Europe, and registered MSB in Canada</p>
+                  </section>
+
+                  <section class="europe">
+                    <img src="images/europe.png" alt="aicpa logo">
+                    <p>PSD2 and Strong Customer Authentication (SCA) compliant</p>
+                  </section>
+
+              </aside>
+       </section>
+
+
+
+
+
+
+
+
+
+
 
 
     <footer>
