@@ -1,0 +1,3 @@
+[submodule "hamburger-menu-slack"]
+	path = hamburger-menu-slack
+	url = https://github.com/Bsofian1/hamburger-menu-slack.git
